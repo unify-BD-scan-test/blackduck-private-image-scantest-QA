@@ -19,7 +19,7 @@ jobs:
         uses: cloudbees-io/blackduck-sca-scan-dependency@v2
         with:
           ref: main
-          server-url: https://blackduck.saas-qa.beescloud.com
+          server-url: https://blackduck.saas-preprod.beescloud.com
           api-token: ${{ secrets.BD_API_TOKEN }}
           project-name: blackduckscan-private-image-test-1
           project-version: 0.0.3
